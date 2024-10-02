@@ -64,6 +64,16 @@ mvn spring-boot:run
 | POST   | `/api/users/{userId}/activities/{activityId}` | Add a user to an activity   |
 | DELETE | `/api/users/{userId}/activities/{activityId}` | Remove a user from an activity |
 
+### Postman Collection
+
+To test the API, a Postman collection is provided. Follow these steps to import and use it:
+
+1. Download the [`Activity_Manager_API.postman_collection.json`](https://github.com/dKurbi/ActivityManagerAPI/blob/main/postman/Activity_Manager_API.postman_collection.json) file from the `/postman` directory of this repository.
+2. Open Postman.
+3. Click on **Import**.
+4. Select the downloaded `.json` file and import it.
+5. Once imported, you can test all the API endpoints provided in the collection.
+
 ---
 
 ## Versió en Català
@@ -121,6 +131,16 @@ mvn spring-boot:run
 | DELETE | `/api/activities/{id}`           | Eliminar una activitat per ID          |
 | POST   | `/api/users/{userId}/activities/{activityId}` | Afegir un usuari a una activitat |
 | DELETE | `/api/users/{userId}/activities/{activityId}` | Treure un usuari d'una activitat |
+
+### Col·lecció de Postman
+
+Per provar l'API, es proporciona una col·lecció de Postman. Segueix aquests passos per importar-la i utilitzar-la:
+
+1. Descarrega l'arxiu [`Activity_Manager_API.postman_collection.json`](https://github.com/dKurbi/ActivityManagerAPI/blob/main/postman/Activity_Manager_API.postman_collection.json) del directori `/postman` d'aquest repositori.
+2. Obre Postman.
+3. Fes clic a **Importar**.
+4. Selecciona l'arxiu `.json` descarregat i importa'l.
+5. Un cop importat, pots provar tots els punts finals de l'API inclosos a la col·lecció.
 
 ---
 
@@ -180,4 +200,13 @@ mvn spring-boot:run
 | POST   | `/api/users/{userId}/activities/{activityId}` | Añadir un usuario a una actividad  |
 | DELETE | `/api/users/{userId}/activities/{activityId}` | Eliminar un usuario de una actividad |
 
+### Colección de Postman
+
+Para probar la API, se proporciona una colección de Postman. Sigue estos pasos para importarla y usarla:
+
+1. Descarga el archivo [`Activity_Manager_API.postman_collection.json`](https://github.com/dKurbi/ActivityManagerAPI/blob/main/postman/Activity_Manager_API.postman_collection.json) del directorio `/postman` de este repositorio.
+2. Abre Postman.
+3. Haz clic en **Importar**.
+4. Selecciona el archivo `.json` descargado e impórtalo.
+5. Una vez importado, puedes probar todos los endpoints de la API incluidos en la colección.
 ```
