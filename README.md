@@ -26,7 +26,7 @@ The **Activity Manager API** allows for the management of users and activities. 
 - Java 17 or later
 - Maven
 - A relational database management system (DBMS), such as **MySQL**
-- Postman (optional)
+- Postman
 
 ### Installation
 
@@ -176,7 +176,7 @@ To test the API, a Postman collection is provided. Follow these steps to import 
 
 ### Introducció
 
-L'**Activity Manager API** permet la gestió d'usuaris i activitats. Aquesta API proporciona punts finals per crear, actualitzar, eliminar i recuperar usuaris i activitats, així com per assignar usuaris a activitats.
+L'**Activity Manager API** permet la gestió d'usuaris i activitats. Aquesta API proporciona endpoints per crear, actualitzar, eliminar i recuperar usuaris i activitats, així com per assignar usuaris a activitats.
 
 ### Funcions
 
@@ -190,7 +190,7 @@ L'**Activity Manager API** permet la gestió d'usuaris i activitats. Aquesta API
 - Java 17 o posterior
 - Maven
 - Un sistema de gestió de bases de dades relacionals (DBMS), com **MySQL**.
-- Postman (opcional)
+- Postman
 
 ### Configuració de la Base de Dades
 Configura les propietats de la base de dades en el fitxer `application.properties` situat a `src/main/resources`.
