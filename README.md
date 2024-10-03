@@ -44,7 +44,7 @@ The **Activity Manager API** allows for the management of users and activities. 
    ```
 
 ### Database Configuration
-**Configure database properties in the `application.properties`  file** located in `src/main/resources`.
+Configure database properties in the `application.properties` file located in `src/main/resources`.
 
 ```bash
 spring.datasource.url=jdbc:mysql://localhost:3306/activitymanager_db?createDatabaseIfNotExist=true
@@ -193,7 +193,7 @@ L'**Activity Manager API** permet la gestió d'usuaris i activitats. Aquesta API
 - Postman (opcional)
 
 ### Configuració de la Base de Dades
-**Configura les propietats de la base de dades en el fitxer `application.properties`** situat a `src/main/resources`.
+Configura les propietats de la base de dades en el fitxer `application.properties` situat a `src/main/resources`.
 
 ```bash
 spring.datasource.url=jdbc:mysql://localhost:3306/activitymanager_db?createDatabaseIfNotExist=true
@@ -375,7 +375,7 @@ La **Activity Manager API** permite la gestión de usuarios y actividades. Esta 
    ```
 
 ### Configuración de la Base de Datos
-**Configura las propiedades de la base de datos en el archivo `application.properties`** ubicado en `src/main/resources`.
+Configura las propiedades de la base de datos en el archivo `application.properties` ubicado en `src/main/resources`.
 
 ```bash
 spring.datasource.url=jdbc:mysql://localhost:3306/activitymanager_db?createDatabaseIfNotExist=true
