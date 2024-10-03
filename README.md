@@ -25,6 +25,7 @@ The **Activity Manager API** allows for the management of users and activities. 
 
 - Java 17 or later
 - Maven
+- A relational database management system (DBMS), such as **MySQL**
 - Postman (optional)
 
 ### Installation
@@ -42,7 +43,14 @@ The **Activity Manager API** allows for the management of users and activities. 
     mvn clean install
    ```
 
+### Database Configuration
+**Configure database properties in the `application.properties`  file** located in `src/main/resources`.
 
+```bash
+spring.datasource.url=
+spring.datasource.username=
+spring.datasource.password=
+```
 ### Running the Application
 
 To run the application locally, use the following command:
@@ -181,7 +189,17 @@ L'**Activity Manager API** permet la gestió d'usuaris i activitats. Aquesta API
 
 - Java 17 o posterior
 - Maven
-- Postman
+- Un sistema de gestió de bases de dades relacionals (DBMS), com **MySQL**.
+- Postman (opcional)
+
+### Configuració de la Base de Dades
+**Configura les propietats de la base de dades en el fitxer `application.properties`** situat a `src/main/resources`.
+
+```bash
+spring.datasource.url=
+spring.datasource.username=
+spring.datasource.password=
+```
 
 ### Instal·lació
 
@@ -338,6 +356,7 @@ La **Activity Manager API** permite la gestión de usuarios y actividades. Esta 
 
 - Java 17 o posterior
 - Maven
+- Un sistema de gestión de bases de datos relacionales (DBMS), como **MySQL**.
 - Postman
 
 ### Instalación
@@ -354,6 +373,16 @@ La **Activity Manager API** permite la gestión de usuarios y actividades. Esta 
    ```bash 
     mvn clean install
    ```
+
+### Configuración de la Base de Datos
+**Configura las propiedades de la base de datos en el archivo `application.properties`** ubicado en `src/main/resources`.
+
+```bash
+spring.datasource.url=
+spring.datasource.username=
+spring.datasource.password=
+```
+
 
 ### Ejecutar la Aplicación
 
