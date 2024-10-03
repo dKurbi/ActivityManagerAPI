@@ -439,7 +439,7 @@ La API utiliza un manejador global de excepciones para capturar y manejar excepc
     - **Estado HTTP**: 409 Conflict
     - **Mensaje**: "User {name} is already registered for activity {activityName}."
 
-6**UserNotRegisteredException**:
+6. **UserNotRegisteredException**:
     - **Descripción**: Se lanza cuando un usuario no está registrado en una actividad en particular.
     - **Estado HTTP**: 409 Conflict
     - **Mensaje**: "User {name} is already registered for activity {activityName}."
