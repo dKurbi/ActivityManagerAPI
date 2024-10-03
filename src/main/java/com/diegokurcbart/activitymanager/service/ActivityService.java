@@ -4,13 +4,11 @@ import com.diegokurcbart.activitymanager.dto.ActivityDTO;
 import com.diegokurcbart.activitymanager.dto.UserDTO;
 import com.diegokurcbart.activitymanager.exception.ActivityNotFoundException;
 import com.diegokurcbart.activitymanager.model.Activity;
-import com.diegokurcbart.activitymanager.model.User;
 import com.diegokurcbart.activitymanager.repository.ActivityRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service

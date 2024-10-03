@@ -3,11 +3,9 @@ package com.diegokurcbart.activitymanager.controller;
 import com.diegokurcbart.activitymanager.dto.ActivityDTO;
 import com.diegokurcbart.activitymanager.dto.UserDTO;
 import com.diegokurcbart.activitymanager.exception.UserNotFoundException;
-import com.diegokurcbart.activitymanager.model.Activity;
 import com.diegokurcbart.activitymanager.service.UserService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

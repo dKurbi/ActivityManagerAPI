@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "cd098d98-825a-4b38-ad7b-505330bf6301",
+		"_postman_id": "75768d08-187f-435d-8bc5-58614b8c9073",
 		"name": "Activity Manager API",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "23506484"
@@ -104,7 +104,20 @@
 					"name": "List all activities joined by user",
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/activities/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"activities",
+								"1"
+							]
+						}
 					},
 					"response": []
 				},
@@ -176,7 +189,19 @@
 					"name": "Get all activities",
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/activities",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"activities"
+							]
+						}
 					},
 					"response": []
 				},

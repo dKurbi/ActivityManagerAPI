@@ -85,28 +85,7 @@ public class UserService {
             throw new UserAlreadyRegisteredException(user.getName(), activity.getName());
         }
     }
-/*    public ResponseEntity<String> addUserToActivity(Long userId, Long activityId) {
-        User user = userRepository.findById(userId)
-                .orElseThrow(() -> new UserNotFoundException(userId));
-        Activity activity = activityRepository.findById(activityId)
-                .orElseThrow(() -> new ActivityNotFoundException(activityId));
-
-        if (activity.getUsers().size() == activity.getMaxCapacity()) {
-            return ResponseEntity.status(HttpStatus.CONFLICT)
-                    .body(String.format(ResponseMessages.ACTIVITY_FULL, activity.getName()));
-        }
-
-        if (!user.addActivity(activity)) {
-            return ResponseEntity.status(HttpStatus.CONFLICT)
-                    .body(String.format(ResponseMessages.USER_ALREADY_REGISTERED,
-                            user.getUserId(), user.getName(), user.getSurname(), activity.getName()));
-        }
-
-        userRepository.save(user);
-        return ResponseEntity.ok(String.format(ResponseMessages.USER_ADDED_SUCCESSFULLY,
-                user.getUserId(), user.getName(), user.getSurname(), activity.getName()));
-    }*/
-
+    // Method to remove a user from an activity
     @Transactional
     public void removeUserFromActivity(Long userId, Long activityId) {
         User user = userRepository.findById(userId)
@@ -120,24 +99,7 @@ public class UserService {
         }
     }
 
-  /*  public ResponseEntity<String> removeUserFromActivity(Long userId, Long activityId) {
-        User user = userRepository.findById(userId)
-                .orElseThrow(() -> new UserNotFoundException(userId));
-        Activity activity = activityRepository.findById(activityId)
-                .orElseThrow(() -> new ActivityNotFoundException(activityId));
-
-        if (user.removeActivity(activity)) {
-            userRepository.save(user);
-            return ResponseEntity.ok(String.format(ResponseMessages.USER_REMOVED_SUCCESSFULLY,
-                    user.getUserId(), user.getName(), user.getSurname(), activity.getName()));
-        }
-
-        return ResponseEntity.status(HttpStatus.NOT_FOUND)
-                .body(String.format(ResponseMessages.USER_NOT_REGISTERED,
-                        user.getUserId(), user.getName(), user.getSurname(), activity.getName()));
-    }*/
-
-
+    // Method to update user information
     public UserDTO updateUser(Long id, UserDTO userDTO) {
         User user = userRepository.findById(id)
                 .orElseThrow(() -> new UserNotFoundException(id));

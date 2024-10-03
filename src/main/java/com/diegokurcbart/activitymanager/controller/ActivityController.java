@@ -2,7 +2,6 @@ package com.diegokurcbart.activitymanager.controller;
 
 import com.diegokurcbart.activitymanager.dto.ActivityDTO;
 import com.diegokurcbart.activitymanager.dto.UserDTO;
-import com.diegokurcbart.activitymanager.exception.ActivityNotFoundException;
 import com.diegokurcbart.activitymanager.service.ActivityService;
 import com.diegokurcbart.activitymanager.service.UserService;
 import jakarta.validation.Valid;
