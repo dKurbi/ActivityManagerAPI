@@ -25,7 +25,7 @@ The **Activity Manager API** allows for the management of users and activities. 
 
 - Java 17 or later
 - Maven
-- Postman
+- Postman (optional)
 
 ### Installation
 
@@ -38,13 +38,16 @@ The **Activity Manager API** allows for the management of users and activities. 
 
 2. Install dependencies:
 
-   ```mvn clean install```
+   ```bash
+    mvn clean install
+   ```
+
 
 ### Running the Application
 
 To run the application locally, use the following command:
 
-```
+```bash
 mvn spring-boot:run
 ```
 
@@ -191,13 +194,15 @@ L'**Activity Manager API** permet la gestió d'usuaris i activitats. Aquesta API
 
 2. Instal·la les dependències:
 
-   ```mvn clean install```
+   ```bash 
+   mvn clean install
+   ```
 
 ### Executar l'aplicació
 
 Per executar l'aplicació localment, fes servir la següent comanda:
 
-```
+```bash
 mvn spring-boot:run
 ```
 
@@ -346,13 +351,15 @@ La **Activity Manager API** permite la gestión de usuarios y actividades. Esta 
 
 2. Instala las dependencias:
 
-   ```mvn clean install```
+   ```bash 
+    mvn clean install
+   ```
 
 ### Ejecutar la Aplicación
 
 Para ejecutar la aplicación localmente, usa el siguiente comando:
 
-```
+```bash
 mvn spring-boot:run
 ```
 
