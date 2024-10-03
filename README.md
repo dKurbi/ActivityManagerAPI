@@ -32,8 +32,8 @@ The **Activity Manager API** allows for the management of users and activities. 
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/activity-manager-api.git
-   cd activity-manager-api
+   git clone https://github.com/dKurbi/ActivityManagerAPI.git
+   cd ActivityManagerAPI
    ```
 
 2. Install dependencies:
@@ -185,8 +185,8 @@ L'**Activity Manager API** permet la gestió d'usuaris i activitats. Aquesta API
 1. Clona aquest repositori:
 
    ```bash
-   git clone https://github.com/your-username/activity-manager-api.git
-   cd activity-manager-api
+   git clone https://github.com/dKurbi/ActivityManagerAPI.git
+   cd ActivityManagerAPI
    ```
 
 2. Instal·la les dependències:
@@ -340,8 +340,8 @@ La **Activity Manager API** permite la gestión de usuarios y actividades. Esta 
 1. Clona este repositorio:
 
    ```bash
-   git clone https://github.com/your-username/activity-manager-api.git
-   cd activity-manager-api
+   git clone https://github.com/dKurbi/ActivityManagerAPI.git
+   cd ActivityManagerAPI
    ```
 
 2. Instala las dependencias:
