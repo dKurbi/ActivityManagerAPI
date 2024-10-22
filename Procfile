@@ -1,1 +1,1 @@
-web: java -jar target/nombre-de-tu-app.jar
+web: java -jar target/activitymanager.jar
